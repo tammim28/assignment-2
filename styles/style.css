@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* navbar style start */
+nav h3{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 2.25rem;
+font-weight: 800;
+}
+
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px ;
+    /* color: white; */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+/* margin-right: 5px; */
+
+    
+}
+.navbar-container{
+    max-width: 450px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    box-sizing: border-box;
+border: 1px solid rgba(226, 219, 219, 0.363);
+border-radius: 39px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.burgur-menu{
+    display: none;
+}
+/* navbar style end */
+
+/* banner style start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+.banner-content{
+    max-width: 520px;
+}
+.banner-content h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 4.75rem;
+font-weight: 900;
+}
+.banner-content p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 28px;
+}
+.banner-content button{
+    border-radius: 42px;
+    padding: 10px 30px;
+    gap: 30px;
+
+background: rgb(230, 83, 60);
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+
+}
+
+.banner-content span{
+    font-family: miama;
+}
+.banner-img{
+    height: 500px;
+    position: relative;
+}
+.token{
+    width: 200px;
+    height: 70px;
+    /* box-sizing: border-box; */
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.986);
+position: absolute;
+left: 780px;
+top: 500px;
+
+
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle-content-1{
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    /* box-sizing: border-box; */
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+position: absolute;
+left: 1050px;
+top: 300px;
+}
+.circle-content-1 h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2.5rem;
+font-weight: 900;
+background: rgba(48, 48, 48, 0.54);
+}
+
+.circle-content-1 p{
+    color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 0.8rem;
+font-weight: 400;
+background: rgba(48, 48, 48, 0.54);
+}
+.circle-content h5{
+    color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 900;
+background: rgba(48, 48, 48, 0.54);
+}
+.circle-content p{
+color: rgba(239, 237, 232, 0.678);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+background: rgba(48, 48, 48, 0.54);
+}
+/* banner style end */
+
+/* change habit style start */
+.habit-title{
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+.habit-title h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+}
+.habit-title p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 15px;
+}
+.habit-cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.card{
+    height: 275px;
+    width: 230px;
+}
+.card-img img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+.card h6{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 600;
+margin-bottom: 6px;
+text-align: center;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+/* change habit style end */
+
+/* run section style start */
+.run-section{
+    border-radius: 18px;
+
+background-color: rgba(34, 34, 34, 0.945);
+}
+.run-section{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.run-img img{
+    max-width: 410px;
+    height: 320px;
+    
+}
+.run-img{
+    background-color: rgba(34, 34, 34, 0.945);
+}
+.run-content{
+    max-width: 440px;
+    background-color: rgba(34, 34, 34, 0.945);
+    
+}
+.run-content h3{
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+background-color: rgba(34, 34, 34, 0.945);
+}
+.run-content p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+margin-top: 10px;
+background-color: rgba(34, 34, 34, 0.945);
+}
+.btn-primary{
+    border-radius: 42px;
+    border: none;
+background: rgb(230, 83, 60);
+padding: 15px 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 600;
+margin-top: 30px;
+}
+/* run section style end */
+
+/* our plan section style start */
+#plan-section{
+    width: 80%;
+    margin: 100px auto;
+}
+.plan-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 4rem;
+font-weight: 800;
+}
+.plan-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.our-card{
+    max-width: 400px;
+    min-height: 200px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.336);
+    padding: 20px;
+}
+.our-card h3, h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.our-card ul{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.our-card .plan-btn{
+    border-radius: 42px;
+    padding: 10px 30px;
+    margin-top: 10px;
+color: white;
+background: rgb(230, 83, 60);
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+}
+/* plan section style end */
+
+/* bmi section start */
+table{
+    border-collapse: collapse;
+    margin-top: 40px;
+    background: rgb(34, 34, 34);
+}
+tr, td, th{
+    border: 1px solid gray;
+    padding: 10px 10px;
+}
+th{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 500;
+text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+text-align: left;
+}
+.table{
+    width: 40%;
+
+}
+.bmi-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background: rgb(34, 34, 34);
+}
+.calculatot-text h4{
+    background: rgb(34, 34, 34);
+}
+.calculatot-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+background: rgb(34, 34, 34);
+}
+.calculator{
+    width: 40%;
+    padding-top: 40px;
+    background: rgb(34, 34, 34);
+
+}
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-field{
+    width: 48%;
+    margin-top: 20px;
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+}
+.form-field select{
+    width: 67%;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+}
+.form-field-area select{
+    display: block;
+    width: 85%;
+    margin-top: 20px;
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+}
+/* bmi style end */
+
+/* team style start */
+.team-content{
+    text-align: center;
+}
+.team-content h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+}
+.team-content p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+}
+.our-team{
+    width: 80%;
+    margin: 100px auto;
+}
+.team-main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.team-card{
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.411);
+
+}
+.team-card>div:nth-child(1){
+    height: 250px;
+}
+.team-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.team-card h6{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.team-card p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+}
+
+/* footer style start */
+
+.footer-parent{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-div1{
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+.footer-div2 .footer-div3{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-div1 h2{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 4.25rem;
+font-weight: 800;
+margin-bottom: 20px;
+background: rgba(255, 255, 255, 0.1);
+}
+.footer-div1 p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+background: rgba(255, 255, 255, 0.1);
+}
+.footer-parent h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2rem;
+font-weight: 700;
+margin-bottom: 20px;
+background: rgba(255, 255, 255, 0.1);
+}
+.footer-parent ul{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+background: rgba(255, 255, 255, 0.1);
+}
+footer hr{
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyrigte p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+background: rgba(255, 255, 255, 0.1);
+}
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+/* media query style */
+@media screen and (max-width: 576px) {
+    .burgur-menu{
+        display: block;
+        width: 5px;
+        height: 5px;
+        color: white;
+    }
+    .navbar-container{
+        display: none;
+    }
+    nav h3{
+        font-size: 1.75rem;
+    }
+    .navbar-main{
+        width: 100%;
+        flex-direction: row;
+        /* max-width: 576px; */
+        
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        max-width: 100%;
+    }
+    .circle-content-1{
+        left: 262px;
+        top: 855px;
+    }
+    .token{
+        left: 0px;
+        top: 1050px;
+    }
+    .habit-title{
+        max-width: 576px;
+    }
+    .habit-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .run-section{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(34, 34, 34, 0.945);
+        height: 530px;
+
+    }
+    .run-img img{
+        width: 70%;
+        height: 50%;
+        margin-top: 60px;
+        background-color: rgba(34, 34, 34, 0.945);
+        
+    }
+    .plan-cards{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .plan-title{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .our-card h3, h4{
+        font-size: 1.5rem;
+    }
+    #plan-section{
+        /* display: none; */
+    }
+    .bmi-container{
+        flex-direction: column;
+    }
+    .table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .calculator{
+        width: 70%;
+        padding: 0;
+        margin: 10px 0px;
+    }
+    .hide{
+        display: none;
+    }
+    .team-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-content{
+        width: 100%;
+    }
+    .footer-parent{
+        flex-direction: column;
+        width: 100%;
+    }
+    .copyrigte{
+        width: 70%;
+    }
+}
