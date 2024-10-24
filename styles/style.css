@@ -588,7 +588,7 @@ footer{
         font-size: 1.5rem;
     }
     #plan-section{
-        /* display: none; */
+        display: none;
     }
     .bmi-container{
         flex-direction: column;
